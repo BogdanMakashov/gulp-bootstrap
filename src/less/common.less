@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+
+    font-size: 16px;
+
+    font-family: @main-font;
+    line-height: 24px;
+}
+
+body {
+    overflow: hidden;
+    overflow-y: auto;
+
+    min-height: 100%;
+
+    background-color: #f8fafc;
+
+    background-image: url('../images/pattern.png');
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+.h1 {
+    margin: 0;
+    padding: 0;
+
+    color: @black;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 44px;
+}
+
+h2,
+.h2 {
+    margin: 0;
+    padding: 0;
+
+    color: @black;
+    font-size: 30px;
+    font-weight: normal;
+
+    font-style: normal;
+    line-height: 34px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+
+    width: 100%;
+    max-width: 1180px;
+
+    &--small {
+        max-width: 980px;
+    }
+}

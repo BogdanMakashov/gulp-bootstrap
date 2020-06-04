@@ -1,0 +1,6 @@
+import 'jquery';
+
+$(document).ready(() => {
+    
+});
+

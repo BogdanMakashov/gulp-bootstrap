@@ -1,0 +1,11 @@
+<% locals.setLayout('./src/layouts/base.ejs') -%>
+<% locals.block('title', 'Главная') -%>
+
+
+<div class="page-wrapper">
+    <%- locals.include('./src/htmlBlocks/header.ejs') %>
+    <div class="main">
+        <h1>Hello, world</h1>
+    </div>
+    <%- locals.include('./src/htmlBlocks/footer.ejs') %>
+</div>
